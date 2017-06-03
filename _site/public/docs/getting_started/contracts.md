@@ -114,7 +114,7 @@ MetaCoin.deployed().then(function(instance) {
   return meta.sendCoin(account_two, 10, {from: account_one});
 }).then(function(result) {
   // If this callback is called, the transaction was successfully processed.
-  alert("Transaction successful!")
+  console.log("Transaction successful!")
 }).catch(function(e) {
   // There was an error! Handle it.
 })
